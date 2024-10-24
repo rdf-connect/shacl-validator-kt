@@ -26,8 +26,11 @@ dependencies {
   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
 
   // RDFC SDK
-  implementation("technology.idlab:rdfc-core")
-  implementation("technology.idlab:rdfc-processor")
+  implementation("technology.idlab:rdfc-core:0.0.1")
+  implementation("technology.idlab:rdfc-processor:0.0.1")
+
+  // Hide SLF4J warnings
+  implementation("org.slf4j:slf4j-nop:2.0.7")
 
   // RDF dependencies.
   implementation("org.apache.jena:apache-jena-libs:5.0.0")

@@ -1,4 +1,4 @@
-package technology.idlab.validator
+package technology.idlab.rdfc.validator
 
 import java.io.ByteArrayOutputStream
 import kotlinx.coroutines.channels.ReceiveChannel

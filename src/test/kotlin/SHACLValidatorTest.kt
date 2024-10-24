@@ -3,8 +3,8 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.runBlocking
-import technology.idlab.runner.impl.jvm.Arguments
-import technology.idlab.validator.SHACLValidator
+import technology.idlab.rdfc.processor.Arguments
+import technology.idlab.rdfc.validator.SHACLValidator
 
 class SHACLValidatorTest {
   @Test
