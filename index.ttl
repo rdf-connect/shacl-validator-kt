@@ -18,8 +18,8 @@
 rdfc:SHACLValidatorKT
   a rdfc:Processor ;
   rdfc:target rdfc:JVMRunner ;
-  rdfc:entrypoint <./build/libs/shacl-validator-kt-1.0-SNAPSHOT.jar> ;
-  rdfc:metadata "class: technology.idlab.validator.SHACLValidator".
+  rdfc:entrypoint <./build/libs/shacl-validator-kt-0.0.1.jar> ;
+  rdfc:metadata "class: technology.idlab.rdfc.validator.SHACLValidator".
 
 []
   a sh:NodeShape ;
